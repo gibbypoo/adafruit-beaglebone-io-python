@@ -24,6 +24,7 @@ WantedBy=multi-user.target
 ```
 ## Enable the new systemd service
 **sudo systemctl daemon-reload**
+
 **sudo systemctl enable enable-i2c-pins.service**
 ```
 Created symlink /etc/systemd/system/multi-user.target.wants/enable-i2c-pins.service → /lib/systemd/system/enable-i2c-pins.service.
